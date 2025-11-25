@@ -1,0 +1,20 @@
+# Python / Airflow junk
+__pycache__/
+*.pyc
+*.pyo
+
+# Airflow logs
+logs/
+airflow_logs/
+*dag_processor_manager*
+
+# Local environment / secrets
+.env
+.env.*
+*.db
+
+# OS/editor stuff
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
